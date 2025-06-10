@@ -1,8 +1,10 @@
+const prompt = require('prompt-sync')();
 
-    // Prompt the user to enter the number of cups of Kenyan Chai Bora they want to make and calculate the ingredients needed.
-calculateChaiIngredients(prompt("How many cups of Kenyan Chai Bora do you want to make?"));
+// Prompt for the user to enter the number of cups they want to make.
+const numberOfCups = prompt('How many cups of Kenyan Chai Bora do you want to make?');
 
-function calculateChaiIngredients (numberOfCups) {
+// Function to calculate the ingredients needed for the specified number of cups.
+function calculateChaiIngredients(numberOfCups) {
 
     // Rounding up the number of cups to the next whole number.
     const roundedNumberOfCups = Math.ceil(numberOfCups); 
@@ -22,3 +24,5 @@ function calculateChaiIngredients (numberOfCups) {
     }
 }
 
+// Call the function and output the result
+console.log(calculateChaiIngredients(numberOfCups));

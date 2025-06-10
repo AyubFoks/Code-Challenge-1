@@ -27,6 +27,15 @@ The ingredients for 1 cup are provided. The user is prompted to enter the number
 > cd Code-Challenge-1/chaiCalculator
 > code .
 
+**Usage**
+1. Run the following code to install dependencies.
+> npm install
+2. Run the following to initiate the prompt.
+> node chaiCalculator/chai.js
+3. Enter the number of cups and hit enter.
+4. This will print out all the ingredients required to make the number of cups you entered.
+
+
 ### Author
 Ayub Karanja
 Nairobi, Kenya
@@ -52,6 +61,14 @@ Given a base fare for every ride and the extra fare per kilimeter, the client sh
 > cd Code-Challenge-1/bodaFareCalculator
 > code .
 
+**Usage**
+1. Run the following code to install dependencies if already not installed.
+> npm install
+2. Run the following to initiate the prompt.
+> node bodaFareCalculator/fare.js
+3. Enter the number of kilometers and hit enter.
+4. This will print the number of kilometers, the base fare, the cost per kilometer and the total chargable amount.
+
 ### Author
 Ayub Karanja
 Nairobi, Kenya
@@ -75,6 +92,14 @@ The user should be able to calculate the transaction charges and the total money
 > git clone https://github.com/AyubFoks/Code-Challenge-1.git
 > cd Code-Challenge-1/mobileMoneyEstimator
 > code .
+
+**Usage**
+1. Run the following code to install dependencies if already not installed.
+> npm install
+2. Run the following to initiate the prompt.
+> node mobileMoneyEstimator/fee.js
+3. Enter the amount of money you wish to send and hit enter.
+4. This will print te amount you wish to send, the transaction fee and the total amount to be debitted for the transaction to be succesful.
 
 ### Author
 Ayub Karanja

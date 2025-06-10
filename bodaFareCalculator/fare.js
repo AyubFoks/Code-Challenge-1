@@ -1,7 +1,9 @@
+const prompt = require('prompt-sync')();
 
-// Prompt the user to enter the distance in kilometers and calculate the fare based on the input.
-calculateBodaFare(prompt("Aje aje Bossi! Leo tunafika wapi? ni kilometer ka ngapi?")) 
+// Prompt the user to enter the distance in kilometers.
+const distanceInKm = prompt('Aje aje Bossi! Leo tunafika wapi? ni kilometer ka ngapi?');
 
+// Function to calculate the boda fare based on the distance entered.
 function calculateBodaFare(distanceInKm) {
     
     // Rounding up the distance to the next whole number.
@@ -21,3 +23,5 @@ function calculateBodaFare(distanceInKm) {
                "Panda Pikipiki Boss yangu!";
     }
 }
+// Calling the function to output the result
+console.log(calculateBodaFare(distanceInKm));
